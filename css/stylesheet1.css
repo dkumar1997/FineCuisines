@@ -98,7 +98,7 @@ main .imgpanel .mainimage img{
 	transition: transform .5s ease;
 }
 main .imgpanel .mainimage:hover img{
-	transform:scale(1.2);
+	transform:scale(1.1);
 }
 
 
@@ -107,7 +107,7 @@ main .imgpanel .mainimage:hover img{
 /* table describing the 3 cuisines css */
 table{
 	width: 95%;
-	margin: 50px auto;
+	margin: 48px auto 10px auto;
 	border: 2px solid black;
 	table-layout: fixed;
 }
@@ -146,3 +146,21 @@ table tr td{
 /* Recipes pages */
 
 
+/* This is the code for the footer */
+
+footer{
+	background-color: black;
+	height: 80px;
+}
+footer .mydetails{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	
+}
+footer .mydetails p{
+	color:white;
+	font-size: 1.3rem;
+	font-family: 'Source Sans Pro', sans-serif; 
+}
